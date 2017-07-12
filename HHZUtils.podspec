@@ -94,68 +94,68 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "Classes/**/*.h"
 
-  s.subspec 'iOS-HHZUtils' do |one|
+  s.subspec 'HHZUtils' do |one|
       one.subspec 'http' do |three|
-        three.source_files = 'iOS-HHZUtils/http/*.{h,m}'
+        three.source_files = 'HHZUtils/http/*.{h,m}'
       end
 
       one.subspec 'file' do |three|
-        three.source_files = 'iOS-HHZUtils/file/*.{h,m}'
+        three.source_files = 'HHZUtils/file/*.{h,m}'
       end
 
       one.subspec 'json' do |three|
-        three.source_files = 'iOS-HHZUtils/json/*.{h,m}'
+        three.source_files = 'HHZUtils/json/*.{h,m}'
       end
 
       one.subspec 'kit' do |three|
-        three.source_files = 'iOS-HHZUtils/kit/*.{h,m}'
+        three.source_files = 'HHZUtils/kit/*.{h,m}'
       end
 
       one.subspec 'device' do |three|
-        three.source_files = 'iOS-HHZUtils/device/*.{h,m}'
+        three.source_files = 'HHZUtils/device/*.{h,m}'
       end
 
       one.subspec 'encryption' do |three|
         three.subspec 'GTMBase64' do |four|
-          four.source_files = 'iOS-HHZUtils/encryption/GTMBase64/*.{h,m}'
+          four.source_files = 'HHZUtils/encryption/GTMBase64/*.{h,m}'
         end
-        three.source_files = 'iOS-HHZUtils/encryption/*.{h,m}'
+        three.source_files = 'HHZUtils/encryption/*.{h,m}'
       end
 
       one.subspec 'plist' do |three|
-        three.source_files = 'iOS-HHZUtils/plist/*.{h,m}'
+        three.source_files = 'HHZUtils/plist/*.{h,m}'
       end
 
       one.subspec 'regular' do |three|
-        three.source_files = 'iOS-HHZUtils/regular/*.{h,m}'
+        three.source_files = 'HHZUtils/regular/*.{h,m}'
       end
 
       one.subspec 'date' do |three|
-        three.source_files = 'iOS-HHZUtils/date/*.{h,m}'
+        three.source_files = 'HHZUtils/date/*.{h,m}'
       end
 
       one.subspec 'calculate' do |three|
-        three.source_files = 'iOS-HHZUtils/calculate/*.{h,m}'
+        three.source_files = 'HHZUtils/calculate/*.{h,m}'
       end
 
       one.subspec 'archive' do |three|
-        three.source_files = 'iOS-HHZUtils/archive/*.{h,m}'
+        three.source_files = 'HHZUtils/archive/*.{h,m}'
       end
 
       one.subspec 'application' do |three|
-        three.source_files = 'iOS-HHZUtils/application/*.{h,m}'
+        three.source_files = 'HHZUtils/application/*.{h,m}'
       end
 
       one.subspec 'cookie' do |three|
-        three.source_files = 'iOS-HHZUtils/cookie/*.{h,m}'
+        three.source_files = 'HHZUtils/cookie/*.{h,m}'
       end
 
       one.subspec 'numerical' do |three|
-        three.source_files = 'iOS-HHZUtils/numerical/*.{h,m}'
+        three.source_files = 'HHZUtils/numerical/*.{h,m}'
       end
 
       one.subspec 'system' do |three|
-        three.source_files = 'iOS-HHZUtils/system/*.{h,m}'
+        three.source_files = 'HHZUtils/system/*.{h,m}'
       end
 end
 
