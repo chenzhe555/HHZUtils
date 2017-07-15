@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HHZUtils"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "工具类"
 
   # This description is used to generate tags and improve search results.
@@ -156,6 +156,10 @@ Pod::Spec.new do |s|
 
       one.subspec 'system' do |three|
         three.source_files = 'HHZUtils/system/*.{h,m}'
+      end
+
+      one.subspec 'exception' do |three|
+        three.source_files = 'HHZUtils/exception/*.{h,m}'
       end
 end
 

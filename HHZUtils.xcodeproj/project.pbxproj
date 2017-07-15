@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74A3FAF01F191A0600A2706A /* HHZMethodException.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A3FAEF1F191A0600A2706A /* HHZMethodException.m */; };
+		74CE762A1F17821F00912072 /* HHZApplicationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE75E01F17821F00912072 /* HHZApplicationTool.m */; };
+		74CE762B1F17821F00912072 /* HHZArchiveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE75E31F17821F00912072 /* HHZArchiveTool.m */; };
+		74CE762D1F17821F00912072 /* HHZCalculateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE75E91F17821F00912072 /* HHZCalculateTool.m */; };
+		74CE762E1F17821F00912072 /* HHZCookieGenerateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE75EC1F17821F00912072 /* HHZCookieGenerateUtil.m */; };
+		74CE762F1F17821F00912072 /* HHZDateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE75EF1F17821F00912072 /* HHZDateTool.m */; };
+		74CE76301F17821F00912072 /* HHZDateTool_Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE75F11F17821F00912072 /* HHZDateTool_Format.m */; };
+		74CE76311F17821F00912072 /* HHZDateToolFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE75F31F17821F00912072 /* HHZDateToolFactory.m */; };
+		74CE76321F17821F00912072 /* HHZDeviceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE75F61F17821F00912072 /* HHZDeviceTool.m */; };
+		74CE76331F17821F00912072 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE75FA1F17821F00912072 /* GTMBase64.m */; };
+		74CE76341F17821F00912072 /* HHZAESEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE75FD1F17821F00912072 /* HHZAESEncryption.m */; };
+		74CE76351F17821F00912072 /* HHZBase64Encrption.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE75FF1F17821F00912072 /* HHZBase64Encrption.m */; };
+		74CE76361F17821F00912072 /* HHZDESEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE76011F17821F00912072 /* HHZDESEncryption.m */; };
+		74CE76371F17821F00912072 /* HHZEncrptionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE76031F17821F00912072 /* HHZEncrptionFactory.m */; };
+		74CE76381F17821F00912072 /* HHZMD5Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE76051F17821F00912072 /* HHZMD5Encryption.m */; };
+		74CE76391F17821F00912072 /* HHZFileHashTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE76081F17821F00912072 /* HHZFileHashTool.m */; };
+		74CE763A1F17821F00912072 /* HHZReachabilityTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE760B1F17821F00912072 /* HHZReachabilityTool.m */; };
+		74CE763B1F17821F00912072 /* HHZIQKeyboardManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE760E1F17821F00912072 /* HHZIQKeyboardManagerTool.m */; };
+		74CE763C1F17821F00912072 /* HHZJSONTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE76111F17821F00912072 /* HHZJSONTool.m */; };
+		74CE763D1F17821F00912072 /* HHZKitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE76141F17821F00912072 /* HHZKitTool.m */; };
+		74CE763E1F17821F00912072 /* HHZMapTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE76161F17821F00912072 /* HHZMapTool.m */; };
+		74CE763F1F17821F00912072 /* HHZPathTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE76181F17821F00912072 /* HHZPathTool.m */; };
+		74CE76401F17821F00912072 /* HHZLoggerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE761B1F17821F00912072 /* HHZLoggerTool.m */; };
+		74CE76411F17821F00912072 /* HHZNumericalTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE761E1F17821F00912072 /* HHZNumericalTool.m */; };
+		74CE76421F17821F00912072 /* HHZPlistTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE76211F17821F00912072 /* HHZPlistTool.m */; };
+		74CE76431F17821F00912072 /* HHZRegularTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE76241F17821F00912072 /* HHZRegularTool.m */; };
+		74CE76441F17821F00912072 /* HHZThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE76271F17821F00912072 /* HHZThreadSafeArray.m */; };
+		74CE76451F17821F00912072 /* HHZThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE76291F17821F00912072 /* HHZThreadSafeDictionary.m */; };
 		74E942201EF7E4BF00A9152B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E9421F1EF7E4BF00A9152B /* main.m */; };
 		74E942231EF7E4BF00A9152B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E942221EF7E4BF00A9152B /* AppDelegate.m */; };
 		74E942261EF7E4BF00A9152B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E942251EF7E4BF00A9152B /* ViewController.m */; };
@@ -19,6 +47,63 @@
 /* Begin PBXFileReference section */
 		082207FD44606A349BABA5E3 /* Pods-HHZUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZUtils/Pods-HHZUtils.debug.xcconfig"; sourceTree = "<group>"; };
 		4DA000A2C5E88652A8787CB6 /* libPods-HHZUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A3FAEE1F191A0600A2706A /* HHZMethodException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZMethodException.h; sourceTree = "<group>"; };
+		74A3FAEF1F191A0600A2706A /* HHZMethodException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZMethodException.m; sourceTree = "<group>"; };
+		74CE75DF1F17821F00912072 /* HHZApplicationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZApplicationTool.h; sourceTree = "<group>"; };
+		74CE75E01F17821F00912072 /* HHZApplicationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZApplicationTool.m; sourceTree = "<group>"; };
+		74CE75E21F17821F00912072 /* HHZArchiveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZArchiveTool.h; sourceTree = "<group>"; };
+		74CE75E31F17821F00912072 /* HHZArchiveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZArchiveTool.m; sourceTree = "<group>"; };
+		74CE75E81F17821F00912072 /* HHZCalculateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCalculateTool.h; sourceTree = "<group>"; };
+		74CE75E91F17821F00912072 /* HHZCalculateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCalculateTool.m; sourceTree = "<group>"; };
+		74CE75EB1F17821F00912072 /* HHZCookieGenerateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZCookieGenerateUtil.h; sourceTree = "<group>"; };
+		74CE75EC1F17821F00912072 /* HHZCookieGenerateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZCookieGenerateUtil.m; sourceTree = "<group>"; };
+		74CE75EE1F17821F00912072 /* HHZDateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZDateTool.h; sourceTree = "<group>"; };
+		74CE75EF1F17821F00912072 /* HHZDateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZDateTool.m; sourceTree = "<group>"; };
+		74CE75F01F17821F00912072 /* HHZDateTool_Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZDateTool_Format.h; sourceTree = "<group>"; };
+		74CE75F11F17821F00912072 /* HHZDateTool_Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZDateTool_Format.m; sourceTree = "<group>"; };
+		74CE75F21F17821F00912072 /* HHZDateToolFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZDateToolFactory.h; sourceTree = "<group>"; };
+		74CE75F31F17821F00912072 /* HHZDateToolFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZDateToolFactory.m; sourceTree = "<group>"; };
+		74CE75F51F17821F00912072 /* HHZDeviceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZDeviceTool.h; sourceTree = "<group>"; };
+		74CE75F61F17821F00912072 /* HHZDeviceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZDeviceTool.m; sourceTree = "<group>"; };
+		74CE75F91F17821F00912072 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		74CE75FA1F17821F00912072 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		74CE75FB1F17821F00912072 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		74CE75FC1F17821F00912072 /* HHZAESEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZAESEncryption.h; sourceTree = "<group>"; };
+		74CE75FD1F17821F00912072 /* HHZAESEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZAESEncryption.m; sourceTree = "<group>"; };
+		74CE75FE1F17821F00912072 /* HHZBase64Encrption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZBase64Encrption.h; sourceTree = "<group>"; };
+		74CE75FF1F17821F00912072 /* HHZBase64Encrption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZBase64Encrption.m; sourceTree = "<group>"; };
+		74CE76001F17821F00912072 /* HHZDESEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZDESEncryption.h; sourceTree = "<group>"; };
+		74CE76011F17821F00912072 /* HHZDESEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZDESEncryption.m; sourceTree = "<group>"; };
+		74CE76021F17821F00912072 /* HHZEncrptionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZEncrptionFactory.h; sourceTree = "<group>"; };
+		74CE76031F17821F00912072 /* HHZEncrptionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZEncrptionFactory.m; sourceTree = "<group>"; };
+		74CE76041F17821F00912072 /* HHZMD5Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZMD5Encryption.h; sourceTree = "<group>"; };
+		74CE76051F17821F00912072 /* HHZMD5Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZMD5Encryption.m; sourceTree = "<group>"; };
+		74CE76071F17821F00912072 /* HHZFileHashTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZFileHashTool.h; sourceTree = "<group>"; };
+		74CE76081F17821F00912072 /* HHZFileHashTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZFileHashTool.m; sourceTree = "<group>"; };
+		74CE760A1F17821F00912072 /* HHZReachabilityTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZReachabilityTool.h; sourceTree = "<group>"; };
+		74CE760B1F17821F00912072 /* HHZReachabilityTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZReachabilityTool.m; sourceTree = "<group>"; };
+		74CE760D1F17821F00912072 /* HHZIQKeyboardManagerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZIQKeyboardManagerTool.h; sourceTree = "<group>"; };
+		74CE760E1F17821F00912072 /* HHZIQKeyboardManagerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZIQKeyboardManagerTool.m; sourceTree = "<group>"; };
+		74CE76101F17821F00912072 /* HHZJSONTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZJSONTool.h; sourceTree = "<group>"; };
+		74CE76111F17821F00912072 /* HHZJSONTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZJSONTool.m; sourceTree = "<group>"; };
+		74CE76131F17821F00912072 /* HHZKitTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZKitTool.h; sourceTree = "<group>"; };
+		74CE76141F17821F00912072 /* HHZKitTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZKitTool.m; sourceTree = "<group>"; };
+		74CE76151F17821F00912072 /* HHZMapTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZMapTool.h; sourceTree = "<group>"; };
+		74CE76161F17821F00912072 /* HHZMapTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZMapTool.m; sourceTree = "<group>"; };
+		74CE76171F17821F00912072 /* HHZPathTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZPathTool.h; sourceTree = "<group>"; };
+		74CE76181F17821F00912072 /* HHZPathTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZPathTool.m; sourceTree = "<group>"; };
+		74CE761A1F17821F00912072 /* HHZLoggerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZLoggerTool.h; sourceTree = "<group>"; };
+		74CE761B1F17821F00912072 /* HHZLoggerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZLoggerTool.m; sourceTree = "<group>"; };
+		74CE761D1F17821F00912072 /* HHZNumericalTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZNumericalTool.h; sourceTree = "<group>"; };
+		74CE761E1F17821F00912072 /* HHZNumericalTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZNumericalTool.m; sourceTree = "<group>"; };
+		74CE76201F17821F00912072 /* HHZPlistTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZPlistTool.h; sourceTree = "<group>"; };
+		74CE76211F17821F00912072 /* HHZPlistTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZPlistTool.m; sourceTree = "<group>"; };
+		74CE76231F17821F00912072 /* HHZRegularTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZRegularTool.h; sourceTree = "<group>"; };
+		74CE76241F17821F00912072 /* HHZRegularTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZRegularTool.m; sourceTree = "<group>"; };
+		74CE76261F17821F00912072 /* HHZThreadSafeArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZThreadSafeArray.h; sourceTree = "<group>"; };
+		74CE76271F17821F00912072 /* HHZThreadSafeArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZThreadSafeArray.m; sourceTree = "<group>"; };
+		74CE76281F17821F00912072 /* HHZThreadSafeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZThreadSafeDictionary.h; sourceTree = "<group>"; };
+		74CE76291F17821F00912072 /* HHZThreadSafeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZThreadSafeDictionary.m; sourceTree = "<group>"; };
 		74E9421B1EF7E4BF00A9152B /* HHZUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHZUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E9421F1EF7E4BF00A9152B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74E942211EF7E4BF00A9152B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,6 +129,197 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74A3FAED1F191A0600A2706A /* exception */ = {
+			isa = PBXGroup;
+			children = (
+				74A3FAEE1F191A0600A2706A /* HHZMethodException.h */,
+				74A3FAEF1F191A0600A2706A /* HHZMethodException.m */,
+			);
+			path = exception;
+			sourceTree = "<group>";
+		};
+		74CE75DE1F17821F00912072 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				74CE75DF1F17821F00912072 /* HHZApplicationTool.h */,
+				74CE75E01F17821F00912072 /* HHZApplicationTool.m */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		74CE75E11F17821F00912072 /* archive */ = {
+			isa = PBXGroup;
+			children = (
+				74CE75E21F17821F00912072 /* HHZArchiveTool.h */,
+				74CE75E31F17821F00912072 /* HHZArchiveTool.m */,
+			);
+			path = archive;
+			sourceTree = "<group>";
+		};
+		74CE75E71F17821F00912072 /* calculate */ = {
+			isa = PBXGroup;
+			children = (
+				74CE75E81F17821F00912072 /* HHZCalculateTool.h */,
+				74CE75E91F17821F00912072 /* HHZCalculateTool.m */,
+			);
+			path = calculate;
+			sourceTree = "<group>";
+		};
+		74CE75EA1F17821F00912072 /* cookie */ = {
+			isa = PBXGroup;
+			children = (
+				74CE75EB1F17821F00912072 /* HHZCookieGenerateUtil.h */,
+				74CE75EC1F17821F00912072 /* HHZCookieGenerateUtil.m */,
+			);
+			path = cookie;
+			sourceTree = "<group>";
+		};
+		74CE75ED1F17821F00912072 /* date */ = {
+			isa = PBXGroup;
+			children = (
+				74CE75EE1F17821F00912072 /* HHZDateTool.h */,
+				74CE75EF1F17821F00912072 /* HHZDateTool.m */,
+				74CE75F01F17821F00912072 /* HHZDateTool_Format.h */,
+				74CE75F11F17821F00912072 /* HHZDateTool_Format.m */,
+				74CE75F21F17821F00912072 /* HHZDateToolFactory.h */,
+				74CE75F31F17821F00912072 /* HHZDateToolFactory.m */,
+			);
+			path = date;
+			sourceTree = "<group>";
+		};
+		74CE75F41F17821F00912072 /* device */ = {
+			isa = PBXGroup;
+			children = (
+				74CE75F51F17821F00912072 /* HHZDeviceTool.h */,
+				74CE75F61F17821F00912072 /* HHZDeviceTool.m */,
+			);
+			path = device;
+			sourceTree = "<group>";
+		};
+		74CE75F71F17821F00912072 /* encryption */ = {
+			isa = PBXGroup;
+			children = (
+				74CE75F81F17821F00912072 /* GTMBase64 */,
+				74CE75FC1F17821F00912072 /* HHZAESEncryption.h */,
+				74CE75FD1F17821F00912072 /* HHZAESEncryption.m */,
+				74CE75FE1F17821F00912072 /* HHZBase64Encrption.h */,
+				74CE75FF1F17821F00912072 /* HHZBase64Encrption.m */,
+				74CE76001F17821F00912072 /* HHZDESEncryption.h */,
+				74CE76011F17821F00912072 /* HHZDESEncryption.m */,
+				74CE76021F17821F00912072 /* HHZEncrptionFactory.h */,
+				74CE76031F17821F00912072 /* HHZEncrptionFactory.m */,
+				74CE76041F17821F00912072 /* HHZMD5Encryption.h */,
+				74CE76051F17821F00912072 /* HHZMD5Encryption.m */,
+			);
+			path = encryption;
+			sourceTree = "<group>";
+		};
+		74CE75F81F17821F00912072 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				74CE75F91F17821F00912072 /* GTMBase64.h */,
+				74CE75FA1F17821F00912072 /* GTMBase64.m */,
+				74CE75FB1F17821F00912072 /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		74CE76061F17821F00912072 /* file */ = {
+			isa = PBXGroup;
+			children = (
+				74CE76071F17821F00912072 /* HHZFileHashTool.h */,
+				74CE76081F17821F00912072 /* HHZFileHashTool.m */,
+			);
+			path = file;
+			sourceTree = "<group>";
+		};
+		74CE76091F17821F00912072 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				74CE760A1F17821F00912072 /* HHZReachabilityTool.h */,
+				74CE760B1F17821F00912072 /* HHZReachabilityTool.m */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		74CE760C1F17821F00912072 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				74CE760D1F17821F00912072 /* HHZIQKeyboardManagerTool.h */,
+				74CE760E1F17821F00912072 /* HHZIQKeyboardManagerTool.m */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		74CE760F1F17821F00912072 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				74CE76101F17821F00912072 /* HHZJSONTool.h */,
+				74CE76111F17821F00912072 /* HHZJSONTool.m */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		74CE76121F17821F00912072 /* kit */ = {
+			isa = PBXGroup;
+			children = (
+				74CE76131F17821F00912072 /* HHZKitTool.h */,
+				74CE76141F17821F00912072 /* HHZKitTool.m */,
+				74CE76151F17821F00912072 /* HHZMapTool.h */,
+				74CE76161F17821F00912072 /* HHZMapTool.m */,
+				74CE76171F17821F00912072 /* HHZPathTool.h */,
+				74CE76181F17821F00912072 /* HHZPathTool.m */,
+			);
+			path = kit;
+			sourceTree = "<group>";
+		};
+		74CE76191F17821F00912072 /* logger */ = {
+			isa = PBXGroup;
+			children = (
+				74CE761A1F17821F00912072 /* HHZLoggerTool.h */,
+				74CE761B1F17821F00912072 /* HHZLoggerTool.m */,
+			);
+			path = logger;
+			sourceTree = "<group>";
+		};
+		74CE761C1F17821F00912072 /* numerical */ = {
+			isa = PBXGroup;
+			children = (
+				74CE761D1F17821F00912072 /* HHZNumericalTool.h */,
+				74CE761E1F17821F00912072 /* HHZNumericalTool.m */,
+			);
+			path = numerical;
+			sourceTree = "<group>";
+		};
+		74CE761F1F17821F00912072 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				74CE76201F17821F00912072 /* HHZPlistTool.h */,
+				74CE76211F17821F00912072 /* HHZPlistTool.m */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+		74CE76221F17821F00912072 /* regular */ = {
+			isa = PBXGroup;
+			children = (
+				74CE76231F17821F00912072 /* HHZRegularTool.h */,
+				74CE76241F17821F00912072 /* HHZRegularTool.m */,
+			);
+			path = regular;
+			sourceTree = "<group>";
+		};
+		74CE76251F17821F00912072 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				74CE76261F17821F00912072 /* HHZThreadSafeArray.h */,
+				74CE76271F17821F00912072 /* HHZThreadSafeArray.m */,
+				74CE76281F17821F00912072 /* HHZThreadSafeDictionary.h */,
+				74CE76291F17821F00912072 /* HHZThreadSafeDictionary.m */,
+			);
+			path = system;
+			sourceTree = "<group>";
+		};
 		74E942121EF7E4BF00A9152B = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +341,24 @@
 		74E9421D1EF7E4BF00A9152B /* HHZUtils */ = {
 			isa = PBXGroup;
 			children = (
+				74A3FAED1F191A0600A2706A /* exception */,
+				74CE75DE1F17821F00912072 /* application */,
+				74CE75E11F17821F00912072 /* archive */,
+				74CE75E71F17821F00912072 /* calculate */,
+				74CE75EA1F17821F00912072 /* cookie */,
+				74CE75ED1F17821F00912072 /* date */,
+				74CE75F41F17821F00912072 /* device */,
+				74CE75F71F17821F00912072 /* encryption */,
+				74CE76061F17821F00912072 /* file */,
+				74CE76091F17821F00912072 /* http */,
+				74CE760C1F17821F00912072 /* IQKeyboardManager */,
+				74CE760F1F17821F00912072 /* json */,
+				74CE76121F17821F00912072 /* kit */,
+				74CE76191F17821F00912072 /* logger */,
+				74CE761C1F17821F00912072 /* numerical */,
+				74CE761F1F17821F00912072 /* plist */,
+				74CE76221F17821F00912072 /* regular */,
+				74CE76251F17821F00912072 /* system */,
 				74E942211EF7E4BF00A9152B /* AppDelegate.h */,
 				74E942221EF7E4BF00A9152B /* AppDelegate.m */,
 				74E942241EF7E4BF00A9152B /* ViewController.h */,
@@ -226,9 +520,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CE762D1F17821F00912072 /* HHZCalculateTool.m in Sources */,
+				74CE76301F17821F00912072 /* HHZDateTool_Format.m in Sources */,
+				74CE76321F17821F00912072 /* HHZDeviceTool.m in Sources */,
+				74CE763F1F17821F00912072 /* HHZPathTool.m in Sources */,
+				74CE762B1F17821F00912072 /* HHZArchiveTool.m in Sources */,
+				74CE762F1F17821F00912072 /* HHZDateTool.m in Sources */,
 				74E942261EF7E4BF00A9152B /* ViewController.m in Sources */,
 				74E942231EF7E4BF00A9152B /* AppDelegate.m in Sources */,
+				74CE76401F17821F00912072 /* HHZLoggerTool.m in Sources */,
+				74A3FAF01F191A0600A2706A /* HHZMethodException.m in Sources */,
+				74CE76371F17821F00912072 /* HHZEncrptionFactory.m in Sources */,
+				74CE763B1F17821F00912072 /* HHZIQKeyboardManagerTool.m in Sources */,
+				74CE76451F17821F00912072 /* HHZThreadSafeDictionary.m in Sources */,
 				74E942201EF7E4BF00A9152B /* main.m in Sources */,
+				74CE763A1F17821F00912072 /* HHZReachabilityTool.m in Sources */,
+				74CE76411F17821F00912072 /* HHZNumericalTool.m in Sources */,
+				74CE76351F17821F00912072 /* HHZBase64Encrption.m in Sources */,
+				74CE76381F17821F00912072 /* HHZMD5Encryption.m in Sources */,
+				74CE763E1F17821F00912072 /* HHZMapTool.m in Sources */,
+				74CE762A1F17821F00912072 /* HHZApplicationTool.m in Sources */,
+				74CE76341F17821F00912072 /* HHZAESEncryption.m in Sources */,
+				74CE763C1F17821F00912072 /* HHZJSONTool.m in Sources */,
+				74CE76331F17821F00912072 /* GTMBase64.m in Sources */,
+				74CE76311F17821F00912072 /* HHZDateToolFactory.m in Sources */,
+				74CE763D1F17821F00912072 /* HHZKitTool.m in Sources */,
+				74CE76361F17821F00912072 /* HHZDESEncryption.m in Sources */,
+				74CE76421F17821F00912072 /* HHZPlistTool.m in Sources */,
+				74CE762E1F17821F00912072 /* HHZCookieGenerateUtil.m in Sources */,
+				74CE76431F17821F00912072 /* HHZRegularTool.m in Sources */,
+				74CE76391F17821F00912072 /* HHZFileHashTool.m in Sources */,
+				74CE76441F17821F00912072 /* HHZThreadSafeArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +711,7 @@
 				74E942341EF7E4BF00A9152B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

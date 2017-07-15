@@ -1,12 +1,20 @@
 PODS:
-  - HHZConfig (0.0.1)
+  - CocoaLumberjack (3.2.0):
+    - CocoaLumberjack/Default (= 3.2.0)
+    - CocoaLumberjack/Extensions (= 3.2.0)
+  - CocoaLumberjack/Default (3.2.0)
+  - CocoaLumberjack/Extensions (3.2.0):
+    - CocoaLumberjack/Default
+  - HHZConfigs (0.0.1)
 
 DEPENDENCIES:
-  - HHZConfig (~> 0.0.1)
+  - CocoaLumberjack (~> 3.2.0)
+  - HHZConfigs (~> 0.0.1)
 
 SPEC CHECKSUMS:
-  HHZConfig: db41e508f4b73e33d8cee62e40c51840d3de369e
+  CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
+  HHZConfigs: ec7b50d7bc0f7738a1e104b325b22a5ab81ece85
 
-PODFILE CHECKSUM: c92863cdddae8545866c18c442d6d5f4b83956f1
+PODFILE CHECKSUM: f271fc467d66c46da90c7f114b4e4bd1308424be
 
 COCOAPODS: 1.3.0.beta.1
