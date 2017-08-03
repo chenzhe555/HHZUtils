@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HHZUtils"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "工具类"
 
   # This description is used to generate tags and improve search results.
@@ -96,70 +96,74 @@ Pod::Spec.new do |s|
 
   s.subspec 'HHZUtils' do |one|
       one.subspec 'http' do |three|
-        three.source_files = 'HHZUtils/http/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/http/*.{h,m}'
       end
 
       one.subspec 'file' do |three|
-        three.source_files = 'HHZUtils/file/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/file/*.{h,m}'
       end
 
       one.subspec 'json' do |three|
-        three.source_files = 'HHZUtils/json/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/json/*.{h,m}'
       end
 
       one.subspec 'kit' do |three|
-        three.source_files = 'HHZUtils/kit/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/kit/*.{h,m}'
       end
 
       one.subspec 'device' do |three|
-        three.source_files = 'HHZUtils/device/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/device/*.{h,m}'
       end
 
       one.subspec 'encryption' do |three|
         three.subspec 'GTMBase64' do |four|
-          four.source_files = 'HHZUtils/encryption/GTMBase64/*.{h,m}'
+          four.source_files = 'HHZUtils/classes/encryption/GTMBase64/*.{h,m}'
         end
-        three.source_files = 'HHZUtils/encryption/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/encryption/*.{h,m}'
       end
 
       one.subspec 'plist' do |three|
-        three.source_files = 'HHZUtils/plist/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/plist/*.{h,m}'
       end
 
       one.subspec 'regular' do |three|
-        three.source_files = 'HHZUtils/regular/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/regular/*.{h,m}'
       end
 
       one.subspec 'date' do |three|
-        three.source_files = 'HHZUtils/date/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/date/*.{h,m}'
       end
 
       one.subspec 'calculate' do |three|
-        three.source_files = 'HHZUtils/calculate/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/calculate/*.{h,m}'
       end
 
       one.subspec 'archive' do |three|
-        three.source_files = 'HHZUtils/archive/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/archive/*.{h,m}'
       end
 
       one.subspec 'application' do |three|
-        three.source_files = 'HHZUtils/application/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/application/*.{h,m}'
       end
 
       one.subspec 'cookie' do |three|
-        three.source_files = 'HHZUtils/cookie/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/cookie/*.{h,m}'
       end
 
       one.subspec 'numerical' do |three|
-        three.source_files = 'HHZUtils/numerical/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/numerical/*.{h,m}'
       end
 
       one.subspec 'system' do |three|
-        three.source_files = 'HHZUtils/system/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/system/*.{h,m}'
       end
 
       one.subspec 'exception' do |three|
-        three.source_files = 'HHZUtils/exception/*.{h,m}'
+        three.source_files = 'HHZUtils/classes/exception/*.{h,m}'
+      end
+
+      one.subspec 'sectionIndex' do |three|
+        three.source_files = 'HHZUtils/classes/sectionIndex/*.{h,m}'
       end
 end
 
