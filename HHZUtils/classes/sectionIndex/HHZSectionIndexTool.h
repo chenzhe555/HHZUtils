@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^HHZSectionIndexGenerateComplete) (NSArray * sectionArr,NSArray * sectionIndexArr);
+typedef void(^HHZSectionIndexGenerateComplete) (NSArray * _Nullable sectionArr,NSArray * _Nullable sectionIndexArr);
 
 NS_ASSUME_NONNULL_BEGIN
 
