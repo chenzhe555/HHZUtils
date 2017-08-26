@@ -20,6 +20,15 @@ NS_ASSUME_NONNULL_BEGIN
 +(instancetype _Nullable)shareDateFommat;
 
 /**
+ *  提供时间戳获取时间字符串
+ *
+ *  @param 时间戳
+ *
+ *  @return
+ */
+-(NSString *)getTimeStringFromTimeStamp:(NSTimeInterval)timeStamp;
+
+/**
  *  提供Date对象获取时间字符串
  *
  *  @param date
