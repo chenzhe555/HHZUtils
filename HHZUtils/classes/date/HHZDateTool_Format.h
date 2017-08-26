@@ -19,3 +19,7 @@
 @interface HHZDateTool_YearAndTime : HHZDateTool
 
 @end
+
+@interface HHZDateTool_Common : HHZDateTool
+
+@end
