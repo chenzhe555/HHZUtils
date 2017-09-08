@@ -32,7 +32,6 @@
 		74C53FDC1F3360ED00FEF80E /* HHZLoggerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C53FB61F3360ED00FEF80E /* HHZLoggerTool.m */; };
 		74C53FDD1F3360ED00FEF80E /* HHZNumericalTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C53FB91F3360ED00FEF80E /* HHZNumericalTool.m */; };
 		74C53FDE1F3360ED00FEF80E /* HHZPlistTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C53FBC1F3360ED00FEF80E /* HHZPlistTool.m */; };
-		74C53FDF1F3360ED00FEF80E /* HHZRegularTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C53FBF1F3360ED00FEF80E /* HHZRegularTool.m */; };
 		74C53FE01F3360ED00FEF80E /* HHZThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C53FC31F3360ED00FEF80E /* HHZThreadSafeArray.m */; };
 		74C53FE11F3360ED00FEF80E /* HHZThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C53FC51F3360ED00FEF80E /* HHZThreadSafeDictionary.m */; };
 		74C53FE41F33611D00FEF80E /* HHZSectionIndexTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C53FE31F33611D00FEF80E /* HHZSectionIndexTool.m */; };
@@ -99,8 +98,6 @@
 		74C53FB91F3360ED00FEF80E /* HHZNumericalTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZNumericalTool.m; sourceTree = "<group>"; };
 		74C53FBB1F3360ED00FEF80E /* HHZPlistTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZPlistTool.h; sourceTree = "<group>"; };
 		74C53FBC1F3360ED00FEF80E /* HHZPlistTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZPlistTool.m; sourceTree = "<group>"; };
-		74C53FBE1F3360ED00FEF80E /* HHZRegularTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZRegularTool.h; sourceTree = "<group>"; };
-		74C53FBF1F3360ED00FEF80E /* HHZRegularTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZRegularTool.m; sourceTree = "<group>"; };
 		74C53FC21F3360ED00FEF80E /* HHZThreadSafeArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZThreadSafeArray.h; sourceTree = "<group>"; };
 		74C53FC31F3360ED00FEF80E /* HHZThreadSafeArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZThreadSafeArray.m; sourceTree = "<group>"; };
 		74C53FC41F3360ED00FEF80E /* HHZThreadSafeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZThreadSafeDictionary.h; sourceTree = "<group>"; };
@@ -151,7 +148,6 @@
 				74C53FB41F3360ED00FEF80E /* logger */,
 				74C53FB71F3360ED00FEF80E /* numerical */,
 				74C53FBA1F3360ED00FEF80E /* plist */,
-				74C53FBD1F3360ED00FEF80E /* regular */,
 				74C53FC01F3360ED00FEF80E /* sectionIndex */,
 				74C53FC11F3360ED00FEF80E /* system */,
 			);
@@ -327,15 +323,6 @@
 				74C53FBC1F3360ED00FEF80E /* HHZPlistTool.m */,
 			);
 			path = plist;
-			sourceTree = "<group>";
-		};
-		74C53FBD1F3360ED00FEF80E /* regular */ = {
-			isa = PBXGroup;
-			children = (
-				74C53FBE1F3360ED00FEF80E /* HHZRegularTool.h */,
-				74C53FBF1F3360ED00FEF80E /* HHZRegularTool.m */,
-			);
-			path = regular;
 			sourceTree = "<group>";
 		};
 		74C53FC01F3360ED00FEF80E /* sectionIndex */ = {
@@ -570,7 +557,6 @@
 				74C53FD01F3360ED00FEF80E /* HHZBase64Encrption.m in Sources */,
 				74C53FDE1F3360ED00FEF80E /* HHZPlistTool.m in Sources */,
 				74C53FC81F3360ED00FEF80E /* HHZCalculateTool.m in Sources */,
-				74C53FDF1F3360ED00FEF80E /* HHZRegularTool.m in Sources */,
 				74C53FD51F3360ED00FEF80E /* HHZFileHashTool.m in Sources */,
 				74C53FE01F3360ED00FEF80E /* HHZThreadSafeArray.m in Sources */,
 			);
