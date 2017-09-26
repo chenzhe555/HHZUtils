@@ -34,6 +34,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 -(NSString *)getTimeStringFromTimeStamp:(NSTimeInterval)timeStamp;
 
+/**
+ *  提供时间字符串获取时间戳
+ *
+ *  @param 时间戳
+ *
+ *  @return
+ */
+-(NSTimeInterval)getTimeStampFromTimeString:(NSString *)timeString;
 
 /**
  *  提供时间戳获取时间字符串(HHZDateTool_Common)

@@ -21,6 +21,11 @@
     return [self.fommat stringFromDate:[NSDate dateWithTimeIntervalSince1970:timeStamp]];
 }
 
+-(NSTimeInterval)getTimeStampFromTimeString:(NSString *)timeString
+{
+    return [[self getDateFromString:timeString] timeIntervalSince1970];
+}
+
 -(NSString *)getTimeStringFromTimeStamp:(NSTimeInterval)timeStamp format:(NSString *)format
 {
     self.fommat.dateFormat = format;

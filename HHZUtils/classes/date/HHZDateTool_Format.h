@@ -8,14 +8,17 @@
 
 #import "HHZDateTool.h"
 
+//yyyy-MM-dd
 @interface HHZDateTool_Year : HHZDateTool
 
 @end
 
+//HH:mm:ss
 @interface HHZDateTool_Time : HHZDateTool
 
 @end
 
+//yyyy-MM-dd HH:mm:ss
 @interface HHZDateTool_YearAndTime : HHZDateTool
 
 @end
