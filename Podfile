@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '7.0'
+platform :ios, '6.0'
 #source 'https://github.com/chenzhe555/HHZSpec.git'
 
 target 'HHZUtils' do
