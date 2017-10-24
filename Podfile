@@ -6,7 +6,7 @@ target 'HHZUtils' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
   pod 'HHZConfigs', '~> 0.0.1'  
-  pod 'CocoaLumberjack', '~> 3.2.0'
+  pod 'CocoaLumberjack', '~> 3.2.1'
   # Pods for HHZUtils
 
 end

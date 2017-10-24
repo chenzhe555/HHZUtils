@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7478A1BB1F9EDA2D000CE08D /* HHZConfigJumpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7478A1BA1F9EDA2D000CE08D /* HHZConfigJumpTool.m */; };
 		74C53FC61F3360ED00FEF80E /* HHZApplicationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C53F7B1F3360ED00FEF80E /* HHZApplicationTool.m */; };
 		74C53FC71F3360ED00FEF80E /* HHZArchiveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C53F7E1F3360ED00FEF80E /* HHZArchiveTool.m */; };
 		74C53FC81F3360ED00FEF80E /* HHZCalculateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C53F811F3360ED00FEF80E /* HHZCalculateTool.m */; };
@@ -47,6 +48,8 @@
 /* Begin PBXFileReference section */
 		082207FD44606A349BABA5E3 /* Pods-HHZUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZUtils/Pods-HHZUtils.debug.xcconfig"; sourceTree = "<group>"; };
 		4DA000A2C5E88652A8787CB6 /* libPods-HHZUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7478A1B91F9EDA2D000CE08D /* HHZConfigJumpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHZConfigJumpTool.h; sourceTree = "<group>"; };
+		7478A1BA1F9EDA2D000CE08D /* HHZConfigJumpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHZConfigJumpTool.m; sourceTree = "<group>"; };
 		74C53F7A1F3360ED00FEF80E /* HHZApplicationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZApplicationTool.h; sourceTree = "<group>"; };
 		74C53F7B1F3360ED00FEF80E /* HHZApplicationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZApplicationTool.m; sourceTree = "<group>"; };
 		74C53F7D1F3360ED00FEF80E /* HHZArchiveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZArchiveTool.h; sourceTree = "<group>"; };
@@ -159,6 +162,8 @@
 			children = (
 				74C53F7A1F3360ED00FEF80E /* HHZApplicationTool.h */,
 				74C53F7B1F3360ED00FEF80E /* HHZApplicationTool.m */,
+				7478A1B91F9EDA2D000CE08D /* HHZConfigJumpTool.h */,
+				7478A1BA1F9EDA2D000CE08D /* HHZConfigJumpTool.m */,
 			);
 			path = application;
 			sourceTree = "<group>";
@@ -536,6 +541,7 @@
 				74C53FE41F33611D00FEF80E /* HHZSectionIndexTool.m in Sources */,
 				74C53FC71F3360ED00FEF80E /* HHZArchiveTool.m in Sources */,
 				74C53FD21F3360ED00FEF80E /* HHZEncrptionFactory.m in Sources */,
+				7478A1BB1F9EDA2D000CE08D /* HHZConfigJumpTool.m in Sources */,
 				74E942261EF7E4BF00A9152B /* ViewController.m in Sources */,
 				74C53FDC1F3360ED00FEF80E /* HHZLoggerTool.m in Sources */,
 				74C53FCB1F3360ED00FEF80E /* HHZDateTool_Format.m in Sources */,
