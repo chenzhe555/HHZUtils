@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740EFC4D2017A4EC00E99EB4 /* HHZQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EFC4C2017A4EC00E99EB4 /* HHZQRCodeTool.m */; };
 		7478A1BB1F9EDA2D000CE08D /* HHZConfigJumpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7478A1BA1F9EDA2D000CE08D /* HHZConfigJumpTool.m */; };
 		74C53FC61F3360ED00FEF80E /* HHZApplicationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C53F7B1F3360ED00FEF80E /* HHZApplicationTool.m */; };
 		74C53FC71F3360ED00FEF80E /* HHZArchiveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C53F7E1F3360ED00FEF80E /* HHZArchiveTool.m */; };
@@ -48,6 +49,8 @@
 /* Begin PBXFileReference section */
 		082207FD44606A349BABA5E3 /* Pods-HHZUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZUtils/Pods-HHZUtils.debug.xcconfig"; sourceTree = "<group>"; };
 		4DA000A2C5E88652A8787CB6 /* libPods-HHZUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		740EFC4B2017A4EC00E99EB4 /* HHZQRCodeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHZQRCodeTool.h; sourceTree = "<group>"; };
+		740EFC4C2017A4EC00E99EB4 /* HHZQRCodeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHZQRCodeTool.m; sourceTree = "<group>"; };
 		7478A1B91F9EDA2D000CE08D /* HHZConfigJumpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHZConfigJumpTool.h; sourceTree = "<group>"; };
 		7478A1BA1F9EDA2D000CE08D /* HHZConfigJumpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHZConfigJumpTool.m; sourceTree = "<group>"; };
 		74C53F7A1F3360ED00FEF80E /* HHZApplicationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZApplicationTool.h; sourceTree = "<group>"; };
@@ -132,9 +135,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		740EFC4A2017A4C100E99EB4 /* qrcode */ = {
+			isa = PBXGroup;
+			children = (
+				740EFC4B2017A4EC00E99EB4 /* HHZQRCodeTool.h */,
+				740EFC4C2017A4EC00E99EB4 /* HHZQRCodeTool.m */,
+			);
+			path = qrcode;
+			sourceTree = "<group>";
+		};
 		74C53F781F3360ED00FEF80E /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				740EFC4A2017A4C100E99EB4 /* qrcode */,
 				74C53F791F3360ED00FEF80E /* application */,
 				74C53F7C1F3360ED00FEF80E /* archive */,
 				74C53F7F1F3360ED00FEF80E /* calculate */,
@@ -556,6 +569,7 @@
 				74C53FCE1F3360ED00FEF80E /* GTMBase64.m in Sources */,
 				74C53FCD1F3360ED00FEF80E /* HHZDeviceTool.m in Sources */,
 				74C53FD41F3360ED00FEF80E /* HHZMethodException.m in Sources */,
+				740EFC4D2017A4EC00E99EB4 /* HHZQRCodeTool.m in Sources */,
 				74C53FD81F3360ED00FEF80E /* HHZJSONTool.m in Sources */,
 				74C53FCC1F3360ED00FEF80E /* HHZDateToolFactory.m in Sources */,
 				74C53FCA1F3360ED00FEF80E /* HHZDateTool.m in Sources */,

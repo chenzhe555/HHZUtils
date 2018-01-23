@@ -161,6 +161,10 @@ Pod::Spec.new do |s|
       one.subspec 'sectionIndex' do |three|
         three.source_files = 'HHZUtils/classes/sectionIndex/*.{h,m}'
       end
+
+      one.subspec 'qrcode' do |three|
+        three.source_files = 'HHZUtils/classes/qrcode/*.{h,m}'
+      end
 end
 
 
