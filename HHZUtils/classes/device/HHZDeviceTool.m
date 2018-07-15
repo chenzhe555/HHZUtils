@@ -34,6 +34,49 @@
 //#import "IPAddress.h"
 
 @implementation HHZDeviceTool
+
++(instancetype)shareManager
+{
+    static id obj = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        obj = [[self class] new];
+    });
+    return obj;
+}
+
+
+-(NSString *)uuid
+{
+    if (!_uuid)
+    {
+        _uuid = [[NSUUID UUID] UUIDString];
+    }
+    return _uuid;
+}
+
+-(NSString *)idfv
+{
+    if (!_idfv)
+    {
+        _idfv = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+    }
+    return _idfv;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 +(NSString *)getCurrentVersion
 {
     return  [[[NSBundle mainBundle] infoDictionary] valueForKey:@"CFBundleShortVersionString"];

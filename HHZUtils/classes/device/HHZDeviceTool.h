@@ -12,6 +12,23 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HHZDeviceTool : NSObject
+//Universally Unique Identifier(通用唯一识别码)
+@property (nonatomic, copy) NSString * uuid;
+//identifierForVendor(每个设备在所属同一个Vendor的应用里，都有相同的值,com.xxx.one和com.xxx.two)
+@property (nonatomic, copy) NSString * idfv;
+
+/************************************ Start ************************************************/
+
+/**
+ 获取当前实例(单例)
+
+ @return HHZDeviceTool 对象
+ */
++(instancetype)shareManager;
+
+/************************************ End ************************************************/
+
+
 /**
  *  获取当前app版本号
  *

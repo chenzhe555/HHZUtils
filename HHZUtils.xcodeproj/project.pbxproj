@@ -53,6 +53,7 @@
 		740EFC4C2017A4EC00E99EB4 /* HHZQRCodeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHZQRCodeTool.m; sourceTree = "<group>"; };
 		7478A1B91F9EDA2D000CE08D /* HHZConfigJumpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHZConfigJumpTool.h; sourceTree = "<group>"; };
 		7478A1BA1F9EDA2D000CE08D /* HHZConfigJumpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHZConfigJumpTool.m; sourceTree = "<group>"; };
+		7481D06920FAFE7C00C8BEC3 /* HHZUtils.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HHZUtils.entitlements; sourceTree = "<group>"; };
 		74C53F7A1F3360ED00FEF80E /* HHZApplicationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZApplicationTool.h; sourceTree = "<group>"; };
 		74C53F7B1F3360ED00FEF80E /* HHZApplicationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZApplicationTool.m; sourceTree = "<group>"; };
 		74C53F7D1F3360ED00FEF80E /* HHZArchiveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZArchiveTool.h; sourceTree = "<group>"; };
@@ -384,6 +385,7 @@
 		74E9421D1EF7E4BF00A9152B /* HHZUtils */ = {
 			isa = PBXGroup;
 			children = (
+				7481D06920FAFE7C00C8BEC3 /* HHZUtils.entitlements */,
 				74C53F781F3360ED00FEF80E /* classes */,
 				74E942211EF7E4BF00A9152B /* AppDelegate.h */,
 				74E942221EF7E4BF00A9152B /* AppDelegate.m */,
@@ -459,6 +461,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = P5LP3WSZUP;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
