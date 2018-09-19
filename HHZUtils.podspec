@@ -138,9 +138,9 @@ Pod::Spec.new do |s|
         three.source_files = 'HHZUtils/classes/archive/*.{h,m}'
       end
 
-      one.subspec 'application' do |three|
-        three.source_files = 'HHZUtils/classes/application/*.{h,m}'
-      end
+      #one.subspec 'application' do |three|
+      #  three.source_files = 'HHZUtils/classes/application/*.{h,m}'
+      #end
 
       one.subspec 'cookie' do |three|
         three.source_files = 'HHZUtils/classes/cookie/*.{h,m}'
