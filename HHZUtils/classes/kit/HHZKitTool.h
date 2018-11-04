@@ -70,6 +70,12 @@ NS_ASSUME_NONNULL_BEGIN
  *  @return
  */
 +(id)getProjectInfo:(NSString *)infoKey;
+
+
+/**
+ 获取当前显示的VC
+ */
++(UIViewController *)getCurrentShowVC;
 @end
 
 NS_ASSUME_NONNULL_END

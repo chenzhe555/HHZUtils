@@ -38,4 +38,37 @@
 {
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:infoKey];
 }
+
++(UIViewController *)getCurrentShowVC
+{
+    UIViewController * rootVC = [UIApplication sharedApplication].keyWindow.rootViewController;
+    return [self getCurrentVCFrom:rootVC];
+}
+
++(UIViewController *)getCurrentVCFrom:(UIViewController *)rootVC
+{
+    UIViewController * currentVC = nil;
+    
+    if ([rootVC presentedViewController])
+    {
+        //presented
+        currentVC = [rootVC presentedViewController];
+    }
+    else if ([rootVC isKindOfClass:[UITabBarController class]])
+    {
+        //tabbar
+        currentVC = [self getCurrentVCFrom:[(UITabBarController *)rootVC selectedViewController]];
+    }
+    else if ([rootVC isKindOfClass:[UINavigationController class]])
+    {
+        //navi
+        currentVC = [self getCurrentVCFrom:[(UINavigationController *)rootVC visibleViewController]];
+    }
+    else
+    {
+        //vc
+        currentVC = rootVC;
+    }
+    return currentVC;
+}
 @end
