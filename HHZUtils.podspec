@@ -165,6 +165,10 @@ Pod::Spec.new do |s|
       one.subspec 'qrcode' do |three|
         three.source_files = 'HHZUtils/classes/qrcode/*.{h,m}'
       end
+
+      one.subspec 'auth' do |three|
+        three.source_files = 'HHZUtils/classes/auth/*.{h,m}'
+      end
 end
 
 
@@ -189,7 +193,7 @@ end
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "UIKit", "Foundation"
+  s.frameworks = "UIKit", "Foundation", "Photos"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
