@@ -43,6 +43,7 @@
 		74E942291EF7E4BF00A9152B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E942271EF7E4BF00A9152B /* Main.storyboard */; };
 		74E9422B1EF7E4BF00A9152B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E9422A1EF7E4BF00A9152B /* Assets.xcassets */; };
 		74E9422E1EF7E4BF00A9152B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E9422C1EF7E4BF00A9152B /* LaunchScreen.storyboard */; };
+		9420C9B521A02B7E002D6898 /* HHZAuthTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9420C9B421A02B7E002D6898 /* HHZAuthTool.m */; };
 		CB4B5A8D22771BFE41F2AC5A /* libPods-HHZUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA000A2C5E88652A8787CB6 /* libPods-HHZUtils.a */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +122,8 @@
 		74E9422A1EF7E4BF00A9152B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74E9422D1EF7E4BF00A9152B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74E9422F1EF7E4BF00A9152B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9420C9B321A02B7E002D6898 /* HHZAuthTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHZAuthTool.h; sourceTree = "<group>"; };
+		9420C9B421A02B7E002D6898 /* HHZAuthTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHZAuthTool.m; sourceTree = "<group>"; };
 		AE6424A47BA512F921C97654 /* Pods-HHZUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZUtils.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHZUtils/Pods-HHZUtils.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +151,7 @@
 		74C53F781F3360ED00FEF80E /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				9420C9B221A02B6E002D6898 /* auth */,
 				740EFC4A2017A4C100E99EB4 /* qrcode */,
 				74C53F791F3360ED00FEF80E /* application */,
 				74C53F7C1F3360ED00FEF80E /* archive */,
@@ -408,6 +412,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9420C9B221A02B6E002D6898 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				9420C9B321A02B7E002D6898 /* HHZAuthTool.h */,
+				9420C9B421A02B7E002D6898 /* HHZAuthTool.m */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
 		BAE18A765A9B49DEC7D6487E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -555,6 +568,7 @@
 			files = (
 				74C53FD31F3360ED00FEF80E /* HHZMD5Encryption.m in Sources */,
 				74C53FCF1F3360ED00FEF80E /* HHZAESEncryption.m in Sources */,
+				9420C9B521A02B7E002D6898 /* HHZAuthTool.m in Sources */,
 				74C53FD11F3360ED00FEF80E /* HHZDESEncryption.m in Sources */,
 				74C53FDB1F3360ED00FEF80E /* HHZPathTool.m in Sources */,
 				74C53FC91F3360ED00FEF80E /* HHZCookieGenerateUtil.m in Sources */,
