@@ -463,4 +463,14 @@
     }
 }
 
+
++(BOOL)checkIsOpenAgent
+{
+    CFDictionaryRef dicRef = CFNetworkCopySystemProxySettings();
+    const CFStringRef proxyCFstr = CFDictionaryGetValue(dicRef, (const void*)kCFNetworkProxiesHTTPProxy);
+    NSString * proxy = (__bridge NSString *)(proxyCFstr);
+    if (proxy) return YES;
+    else return NO;
+}
+
 @end
