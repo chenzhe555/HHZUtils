@@ -464,11 +464,11 @@
 }
 
 
-+(BOOL)checkIsOpenAgent
++(BOOL)checkIsOpenProxy
 {
     CFDictionaryRef dicRef = CFNetworkCopySystemProxySettings();
-    const CFStringRef proxyCFstr = CFDictionaryGetValue(dicRef, (const void*)kCFNetworkProxiesHTTPProxy);
-    NSString * proxy = (__bridge NSString *)(proxyCFstr);
+    const CFStringRef proxyCFString = CFDictionaryGetValue(dicRef, (const void*)kCFNetworkProxiesHTTPProxy);
+    NSString * proxy = (__bridge NSString *)(proxyCFString);
     if (proxy) return YES;
     else return NO;
 }

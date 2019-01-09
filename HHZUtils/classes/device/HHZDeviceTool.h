@@ -179,7 +179,7 @@ NS_ASSUME_NONNULL_BEGIN
 +(CGFloat)getCPUUsage;
 
 //检查当前手机是否开启代理
-+(BOOL)checkIsOpenAgent;
++(BOOL)checkIsOpenProxy;
 @end
 
 NS_ASSUME_NONNULL_END
